@@ -1,38 +1,38 @@
 function Projects() {
-    
+    const base = import.meta.env.BASE_URL;
     const projects = [
         {
             id: 1,
             title: "Integrated Digital Marketing Platform",
             view: "View Project",
-            img: "/p1.jpg",
+            img: `${base}p1.jpg`,
             desc: "A modern, responsive landing page for BrandHub Pro, a full-service digital marketing agency offering brand asset management, SEO, web development, and visual identity design. Built with a clean light-mode UI, emerald-green accents.",
             tags: ["HTML" , "Tailwindcss"],
-            href: "#"
+            href: "https://abdel-rahmanm-ahmdd.github.io/project-3/"
         },
         {
             id: 2,
             title: "E-commerce",
             view: "View Project",
-            img: "/p2.png",
+            img: `${base}p2.png`,
             desc: "A responsive, full-featured e-commerce web application built to deliver a seamless online shopping experience. Users can browse dynamic product catalogs, filter items by category.",
             tags: ["HTML" , "CSS" , "React"],
-            href: "#"
+            href: "https://abdel-rahmanm-ahmdd.github.io/E-commerce/"
         },
         {
             id: 3,
             title: "Portfolio",
             view: "View Project",
-            img: "/p3.png",
+            img: `${base}p3.png`,
             desc: "A modern, responsive personal portfolio built with React and Tailwind CSS to showcase front-end web development projects, technical skills, and experience. Features interactive UI components, animated skill-progress indicators.",
             tags: ["HTML" , "Tailwindcss" , "React"],
-            href: "#"
+            href: "https://abdel-rahmanm-ahmdd.github.io/my-portfolio/"
         },
         {
             id: 4,
             title: "Brand Management Platform",
             view: "View Project",
-            img: "/p4.webp",
+            img: `${base}p4.webp`,
             desc: "A modern digital asset management and client portal platform featuring centralized brand resources, team collaboration tools, subscription tiers, and a seamless user experience.",
             tags: ["HTML" , "CSS"],
             href: "https://github.com/Abdel-Rahmanm-Ahmdd/project-1"
@@ -41,7 +41,7 @@ function Projects() {
             id: 5,
             title: "Men's Fashion Platform",
             view: "View Project",
-            img: "/p5.jpg",
+            img: `${base}p5.jpg`,
             desc: "A complete-featured men's fashion e-commerce platform offering smart filtering, secure checkout, customer reviews, and a smooth mobile-responsive shopping journey.",
             tags: ["HTML5" , "CSS3"],
             href: "https://github.com/Abdel-Rahmanm-Ahmdd/project-2"
