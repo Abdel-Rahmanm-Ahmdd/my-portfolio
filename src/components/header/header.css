@@ -1,0 +1,28 @@
+/* @media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+} */
+.header-container {
+    width: 90%;
+}
+
+@media (max-width: 767px) {
+    .header .drop-dwon {
+        clip-path: polygon(0 0, 100% 0 , 100% 0, 0 0);
+        transition: 0.3s ease-in-out;
+    }
+    .header .drop-dwon.menu {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
